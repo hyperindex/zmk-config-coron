@@ -85,8 +85,8 @@
         FUNCTION {
             bindings = <
 &trans  &trans      &kp CARET        &kp LS(APOS)      &kp ASTRK         &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &trans           &trans      &trans
-&trans  &kp LS(N7)  &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &kp APOS              &trans       &trans             &trans         &kp ASTRK        &kp LS(N9)  &trans  &trans  &trans
-&trans  &kp PLUS    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH          &kp SEMI              &kp INT_YEN  &trans             &trans         &kp RIGHT_BRACE  &kp PIPE    &trans  &trans  &trans
+&trans  &kp LS(N7)  &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &kp APOS              &trans       &trans             &trans         &kp ASTRK        &kp LS(N9)  &kp UNDER  &trans  &trans
+&trans  &kp PLUS    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH          &kp SEMI              &kp INT_YEN  &trans             &trans         &kp RIGHT_BRACE  &kp PIPE    &trans     &trans  &trans
 &trans  &trans      &trans           &trans            &trans            &trans                &trans       &trans             &trans         &trans           &trans
             >;
         };
