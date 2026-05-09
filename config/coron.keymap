@@ -73,10 +73,10 @@
 
         default_layer {
             bindings = <
-&kp ESC           &kp Q             &kp W         &kp E         &kp R                        &kp T        &kp Y                        &kp U          &lt 5 I      &kp O     &kp P         &kp BACKSPACE
-&kp TAB           &kp A             &kp S         &kp D         &kp F                        &kp G        &msc MOVE_Y(5)               &kp MINUS      &kp H        &kp J     &kp K         &kp L          &kp UNDER  &kp ENTER
-&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp DEL                      &kp AT         &kp N        &kp M     &kp COMMA     &kp DOT        &kp SLASH  &kp F2
-&kp LEFT_CONTROL  &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &kp BACKSPACE  &lt 1 ENTER  &kp APOS  &kp QUESTION
+&kp ESC           &kp Q             &kp W         &kp E         &kp R                        &kp T        &kp Y                        &kp U             &lt 5 I      &lt 5 O   &kp P         &kp BACKSPACE
+&kp TAB           &kp A             &kp S         &kp D         &kp F                        &kp G        &msc MOVE_Y(5)               &kp MINUS         &kp H        &kp J     &kp K         &kp L          &kp LS(MINUS)  &kp ENTER
+&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp DEL                      &kp LEFT_BRACKET  &kp N        &kp M     &kp COMMA     &kp DOT        &kp SLASH      &kp F2
+&kp LEFT_CONTROL  &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &kp BACKSPACE     &lt 1 ENTER  &kp APOS  &kp QUESTION
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -84,10 +84,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp TILDE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans                 &trans
-&trans  &kp GRAVE  &kp DOLLAR       &kp PERCENT   &kp CARET             &kp COLON              &trans       &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &trans  &trans
-&trans  &kp APOS   &kp EXCLAMATION  &kp AT        &kp HASH              &kp SEMI               &kp INT_YEN  &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE       &trans  &trans
-&trans  &trans     &trans           &trans        &trans                &trans                 &trans       &trans            &trans             &trans                &trans
+&trans  &kp TILDE  &kp CARET        &trans            &kp ASTRK  &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &trans           &trans            &trans
+&trans  &trans     &kp DOLLAR       &kp PERCENT       &trans     &kp APOS              &trans       &trans             &trans         &kp ASTRK        &kp GREATER_THAN  &trans  &trans  &trans
+&trans  &kp APOS   &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH   &kp SEMI              &kp INT_YEN  &trans             &trans         &kp RIGHT_BRACE  &kp PIPE          &trans  &trans  &trans
+&trans  &trans     &trans           &trans            &trans     &trans                &trans       &trans             &trans         &trans           &trans
             >;
         };
 
@@ -113,10 +113,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB5  &mkp MB1  &msc MOVE_Y(5)  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &mkp MB4        &mkp MB1  &msc MOVE_Y(-5)  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans          &trans    &mkp MB3         &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB5  &mkp MB1  &msc MOVE_Y(20)  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &mkp MB4         &mkp MB1  &msc MOVE_Y(-20)  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans           &trans    &mkp MB3          &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans           &trans
             >;
         };
 
