@@ -74,8 +74,8 @@
         default_layer {
             bindings = <
 &kp ESC           &kp Q             &kp W         &kp E         &kp R                        &kp T        &kp Y                        &kp U             &lt 5 I      &lt 5 O   &kp P         &kp BACKSPACE
-&kp TAB           &kp A             &kp S         &kp D         &kp F                        &kp G        &msc MOVE_Y(5)               &kp MINUS         &kp H        &kp J     &kp K         &kp L          &kp LS(MINUS)  &kp ENTER
-&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp DEL                      &kp LEFT_BRACKET  &kp N        &kp M     &kp COMMA     &kp DOT        &kp SLASH      &kp F2
+&kp TAB           &kp A             &kp S         &kp D         &kp F                        &kp G        &msc MOVE_Y(5)               &kp MINUS         &kp H        &kp J     &kp K         &kp L          &kp LS(MINUS)      &kp ENTER
+&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp DEL                      &kp LEFT_BRACKET  &kp N        &kp M     &kp COMMA     &kp DOT        &kp LS(BACKSLASH)  &kp F2
 &kp LEFT_CONTROL  &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &kp BACKSPACE     &lt 1 ENTER  &kp APOS  &kp QUESTION
             >;
 
@@ -84,19 +84,19 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans     &kp CARET        &kp LS(APOS)      &kp ASTRK         &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &trans           &trans      &trans
-&trans  &kp COLON  &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &kp APOS              &trans       &trans             &trans         &kp ASTRK        &kp LS(N9)  &trans  &trans  &trans
-&trans  &trans     &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH          &kp SEMI              &kp INT_YEN  &trans             &trans         &kp RIGHT_BRACE  &kp PIPE    &trans  &trans  &trans
-&trans  &trans     &trans           &trans            &trans            &trans                &trans       &trans             &trans         &trans           &trans
+&trans  &trans      &kp CARET        &kp LS(APOS)      &kp ASTRK         &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &trans           &trans      &trans
+&trans  &kp LS(N7)  &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &kp APOS              &trans       &trans             &trans         &kp ASTRK        &kp LS(N9)  &trans  &trans  &trans
+&trans  &kp PLUS    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH          &kp SEMI              &kp INT_YEN  &trans             &trans         &kp RIGHT_BRACE  &kp PIPE    &trans  &trans  &trans
+&trans  &trans      &trans           &trans            &trans            &trans                &trans       &trans             &trans         &trans           &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans  &kp MINUS  &kp N7        &kp N8        &kp N9        &kp PLUS      &kp F6     &kp F7   &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &trans     &kp F11  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5  &trans
-&trans  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL  &kp F12  &trans  &trans  &trans   &trans  &trans  &trans
-&trans  &trans     &trans        &trans        &trans        &trans        &trans     &trans   &trans  &trans  &trans
+&trans  &kp MINUS  &kp N7        &kp N8        &kp N9        &kp LS(N7)    &kp F6         &kp F7   &kp F8  &kp F9  &kp F10  &trans
+&trans  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(APOS)  &trans         &kp F11  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5  &trans
+&trans  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp LS(MINUS)  &kp F12  &trans  &trans  &trans   &trans  &trans  &trans
+&trans  &kp SLASH  &trans        &trans        &trans        &trans        &trans         &trans   &trans  &trans  &trans
             >;
         };
 
