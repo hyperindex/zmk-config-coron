@@ -84,19 +84,19 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans      &kp CARET        &kp LS(APOS)      &kp ASTRK         &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH  &trans           &trans      &trans
-&trans  &kp LS(N7)  &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &kp APOS              &trans       &trans             &trans         &kp ASTRK        &kp LS(N9)  &kp UNDER  &trans  &trans
-&trans  &kp PLUS    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH          &kp SEMI              &kp INT_YEN  &trans             &trans         &kp RIGHT_BRACE  &kp PIPE    &trans     &trans  &trans
-&trans  &trans      &trans           &trans            &trans            &trans                &trans       &trans             &trans         &trans           &trans
+&trans  &trans      &kp CARET        &kp LS(APOS)      &kp ASTRK   &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH   &trans           &trans      &trans
+&trans  &kp LS(N7)  &kp DOLLAR       &kp PERCENT       &kp LS(N7)  &kp APOS              &trans       &kp LS(COMMA)      &kp LS(PERIOD)  &kp ASTRK        &kp LS(N9)  &kp UNDER  &trans  &trans
+&trans  &kp PLUS    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH    &kp SEMI              &kp INT_YEN  &trans             &trans          &kp RIGHT_BRACE  &kp PIPE    &trans     &trans  &trans
+&trans  &trans      &trans           &trans            &trans      &trans                &trans       &trans             &trans          &trans           &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans  &kp MINUS  &kp N7        &kp N8        &kp N9        &kp LS(N7)    &kp F6         &kp F7   &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(APOS)  &trans         &kp F11  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5  &trans
-&trans  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp LS(MINUS)  &kp F12  &trans  &trans  &trans   &trans  &trans  &trans
-&trans  &kp SLASH  &trans        &trans        &trans        &trans        &trans         &trans   &trans  &trans  &trans
+&trans  &kp LS(APOSTROPHE)  &kp N7        &kp N8        &kp N9        &kp LS(SEMI)  &kp F6         &kp F7   &kp F8  &kp F9  &kp F10  &trans
+&trans  &kp SLASH           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS     &trans         &kp F11  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5  &trans
+&trans  &kp N0              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp LS(MINUS)  &kp F12  &trans  &trans  &trans   &trans  &trans  &trans
+&trans  &kp SLASH           &trans        &trans        &trans        &trans        &trans         &trans   &trans  &trans  &trans
             >;
         };
 
