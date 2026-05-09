@@ -74,9 +74,9 @@
         default_layer {
             bindings = <
 &kp ESC           &kp Q             &kp W         &kp E         &kp R                        &kp T        &kp Y                        &kp U             &lt 5 I      &lt 5 O   &kp P         &kp BACKSPACE
-&kp TAB           &kp A             &kp S         &kp D         &kp F                        &kp G        &msc MOVE_Y(5)               &kp MINUS         &kp H        &kp J     &kp K         &kp L          &kp LS(MINUS)      &kp ENTER
+&kp TAB           &kp A             &kp S         &kp D         &kp F                        &kp G        &msc MOVE_Y(5)               &kp MINUS         &kp H        &kp J     &kp K         &kp L          &kp UNDER          &kp ENTER
 &kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp DEL                      &kp LEFT_BRACKET  &kp N        &kp M     &kp COMMA     &kp DOT        &kp LS(BACKSLASH)  &kp F2
-&kp LEFT_CONTROL  &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &kp BACKSPACE     &lt 1 ENTER  &kp APOS  &kp QUESTION
+&kp LEFT_CONTROL  &kp RIGHT_ALT     &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &kp BACKSPACE     &lt 1 ENTER  &kp APOS  &kp QUESTION
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -84,10 +84,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans      &kp CARET        &kp LS(APOS)      &kp ASTRK   &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH   &trans           &trans      &trans
-&trans  &kp LS(N7)  &kp DOLLAR       &kp PERCENT       &kp LS(N7)  &kp APOS              &trans       &kp LS(COMMA)      &kp LS(PERIOD)  &kp ASTRK        &kp LS(N9)  &kp UNDER  &trans  &trans
-&trans  &kp PLUS    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH    &kp SEMI              &kp INT_YEN  &trans             &trans          &kp RIGHT_BRACE  &kp PIPE    &trans     &trans  &trans
-&trans  &trans      &trans           &trans            &trans      &trans                &trans       &trans             &trans          &trans           &trans
+&trans  &kp DOUBLE_QUOTES  &kp CARET        &kp LS(APOS)      &kp ASTRK  &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH   &trans           &trans      &trans
+&trans  &kp LS(N7)         &kp DOLLAR       &kp PERCENT       &kp EQUAL  &kp APOS              &trans       &kp LS(COMMA)      &kp LS(PERIOD)  &kp ASTRK        &kp LS(N9)  &trans  &trans  &trans
+&trans  &kp PLUS           &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH   &kp SEMI              &kp INT_YEN  &trans             &trans          &kp RIGHT_BRACE  &kp PIPE    &trans  &trans  &trans
+&trans  &trans             &trans           &trans            &trans     &trans                &trans       &trans             &trans          &trans           &trans
             >;
         };
 
