@@ -62,6 +62,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc MOVE_Y(15)>, <&msc MOVE_Y(-15)>;
+
             tap-ms = <20>;
         };
 
@@ -86,7 +87,7 @@
 &kp LEFT_CONTROL  &kp RIGHT_ALT     &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &kp BACKSPACE     &lt 1 ENTER  &kp APOS  &kp QUESTION
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
