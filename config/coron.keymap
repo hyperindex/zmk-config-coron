@@ -92,10 +92,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &kp LS(DOUBLE_QUOTES)  &kp CARET        &kp LS(APOS)      &kp ASTRK  &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH        &trans           &kp UNDER   &kp LS(MINUS)
-&trans  &kp LS(N7)             &kp DOLLAR       &kp PERCENT       &kp EQUAL  &kp APOS              &trans       &kp LS(COMMA)      &kp LS(PERIOD)       &kp ASTRK        &kp LS(N9)  &trans         &kp LS(UNDERSCORE)  &kp LS(KP_SUBTRACT)
-&trans  &kp PLUS               &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH   &kp SEMI              &kp INT_YEN  &kp LS(KP_MINUS)   &kp LS(KP_SUBTRACT)  &kp RIGHT_BRACE  &kp PIPE    &trans         &kp UNDERSCORE      &kp LS(KP_MINUS)
-&trans  &trans                 &trans           &trans            &trans     &trans                &trans       &trans             &trans               &trans           &trans
+&trans  &kp LS(NUMBER_2)  &kp CARET        &kp LS(APOS)      &kp ASTRK  &kp LEFT_PARENTHESIS  &trans       &kp RIGHT_BRACKET  &kp BACKSLASH        &trans           &trans      &trans
+&trans  &kp LS(N7)        &kp DOLLAR       &kp PERCENT       &kp EQUAL  &kp APOS              &trans       &kp LS(COMMA)      &kp LS(PERIOD)       &kp ASTRK        &kp LS(N9)  &trans  &trans  &trans
+&trans  &kp PLUS          &kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH   &kp SEMI              &kp INT_YEN  &kp PSCRN          &kp INTERNATIONAL_1  &kp RIGHT_BRACE  &kp PIPE    &trans  &trans  &trans
+&trans  &trans            &trans           &trans            &trans     &trans                &trans       &trans             &trans               &trans           &trans
             >;
         };
 
